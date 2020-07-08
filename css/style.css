@@ -81,6 +81,7 @@ ul li {
 }
 
 ul.menu li a {
+  text-align: center;
   text-decoration: none;
   display: block;
   color: white;
@@ -98,7 +99,7 @@ ul.menu li a:hover,
 }
 
 .navbar_right ul li a {
-    text-decoration: none;
+  text-decoration: none;
   display: flex;
   color: white;
   text-transform: uppercase;
