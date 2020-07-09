@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@800&family=Roboto+Mono:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -63,8 +64,8 @@ div.navbar {
   position: fixed;
   width: 100%;
   margin: 0px auto;
-  height: 70px;
-  background: rgba(0, 0, 0, 0.7);
+  height: 90px;
+  background: rgba(0, 0, 0, 0.5);
   padding: 0 100px; /*---untuk logo--*/
   font-size: 12px;
   display: flex;
@@ -74,6 +75,7 @@ div.navbar {
 
 ul.menu {
   display: flex;
+  float: left;
 }
 
 ul li {
@@ -81,7 +83,7 @@ ul li {
 }
 
 ul.menu li a {
-  text-align: center;
+  /* text-align: left; */
   text-decoration: none;
   display: block;
   color: white;
@@ -147,25 +149,48 @@ section p {
   height: 50px;
   border: none;
   border-radius: 5px;
+  outline: none;
+}
+
+.main-button:hover {
+  border: none;
+  background: black;
+  color: orange;
+  cursor: pointer;
 }
 
 /* section images */
 section#home {
   background-image: url(/images/main-bg.jpg);
+  background-size: 100% 100%;
 }
 
 section#work {
   background-image: url(/images/the-games-bg.jpg);
+  background-size: 100% 100%;
 }
 
 section#contact {
   background-image: url(/images/features.jpg);
+  background-size: 100% 100%;
 }
 
 section#about_me {
   background-image: url(../images/requirements.png);
+  background-size: 100% 100%;
 }
 
 section#topscore {
   background-image: url(/images/top-score-bg.png);
+  background-size: 100% 100%;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  cursor: default;
+  font-family: "Muli", sans-serif;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 3px;
 }
