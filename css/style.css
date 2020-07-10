@@ -222,7 +222,7 @@ section#work {
 
 section#contact {
   background-image: url(/images/features.jpg);
-  background-size: 100% 100%;
+  outline-offset: black 10px;
 }
 
 section#about_me {
